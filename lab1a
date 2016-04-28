@@ -47,13 +47,13 @@ nameA  = name A +"Color " + color;
    this.d = doors;
    this.c = cylinders;
  }  
-public Automobile(int doors,int cylinders,int trans)
+public Automobile1(int doors,int cylinders,int trans)
  {
   this.d = doors;
   this.c = cylinders;
   this.t = trans;
  }
-public Automobile(string color,int doors,int cylinders,int trans)
+public Automobile2(string color,int doors,int cylinders,int trans)
 {
   this.c = color;
   this.d = doors;
