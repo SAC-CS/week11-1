@@ -12,18 +12,21 @@ Automobile car = new Automobile();
 car.SetNumberOfDoor(4);
 car.SetColors("yellow");
 car.SetName("Cabbie");
+System.out.println(car.About());
 
 Automobile car1 = new Automobile();
 
 car1.SetNumberOfDoor(2);
 car1.SetColors("red");
 car1.SetName("Sporty");
+System.out.println(car1.About());
 
 Automobile car2 = new Automobile();
 
 car2.SetNumberOfDoor(5);
 car2.SetColors("green");
 car2.SetName("Vany");
+System.out.println(car2.About());
 
 
 
