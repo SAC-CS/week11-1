@@ -1,0 +1,65 @@
+import java.util.Scanner;
+
+
+public class Automobile {
+
+ 
+ private int d =0;
+ private int c= 0;
+ private int t =0;
+ private String c="";
+ private String n= "";
+ private int doors = 0;
+ private int cylinders = 0;
+ private int trans =0 ;
+ private String color="";  
+ 
+  public void SetNumberOfDoor(int d)
+ {
+this.d = d;
+ }
+ public void SetNumberOfCylinder(int c)
+ {
+ this.c= c;
+ }
+ public void SetTransmission(int t)
+ {
+ this.t =t;
+ }
+  
+ public void SetColors(String c)
+ {
+ this.c = c;
+ }
+ public void SetName(String n)
+ {
+ this.n= n;
+ }
+ public String About()
+ {
+ String nameA  = "Number of doors: " +doors + "Number of cylinder :" +cylinder; 
+nameA  = nameA +"Transmission " + transmission;
+nameA  = name A +"Color " + color;
+ } 
+ 
+ public Automobile(int doors, int cylinders)
+ {
+   this.d = doors;
+   this.c = cylinders;
+ }  
+public Automobile(int doors,int cylinders,int trans)
+ {
+  this.d = doors;
+  this.c = cylinders;
+  this.t = trans;
+ }
+public Automobile(string color,int doors,int cylinders,int trans)
+{
+  this.c = color;
+  this.d = doors;
+  this.c = cylinders;
+  this.t = trans;
+}
+
+}
+
