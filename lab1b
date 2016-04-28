@@ -1,0 +1,36 @@
+
+import java.util.Scanner;
+
+public class AutomobileTest {
+
+
+public static void main(String[] args) {
+Scanner input = new Scanner (System.in);
+
+Automobile car = new Automobile();
+
+car.SetNumberOfDoor(4);
+car.SetColors("yellow");
+car.SetName("Cabbie");
+
+Automobile car1 = new Automobile();
+
+car1.SetNumberOfDoor(2);
+car1.SetColors("red");
+car1.SetName("Sporty");
+
+Automobile car2 = new Automobile();
+
+car2.SetNumberOfDoor(5);
+car2.SetColors("green");
+car2.SetName("Vany");
+
+
+
+System.out.println("" A %s &d name %s",car.SetColors(c),car.SetNumberOfDoor(d),car.SetName(n));
+System.out.println("" A %s &d name %s",car1.SetColors(c),car1.SetNumberOfDoor(d),car1.SetName(n));
+System.out.println("" A %s &d name %s",car2.SetColors(c),car2.SetNumberOfDoor(d),car2.SetName(n));
+
+
+
+}
