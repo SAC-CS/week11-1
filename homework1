@@ -165,3 +165,5 @@ keepTrackOfThrows++;
 
 
 }
+
+// Hi An...please move all I/O (i.e. JOptionPane) outside of the object
